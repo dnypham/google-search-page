@@ -26,10 +26,18 @@
     border-radius: 50px;
     border-width: 1px;
     border-color: #dadce8;
-    box-shadow: 0 2px 6px rgba(32, 36, 33, .20);
+    box-shadow: 0 2px 4px rgba(32, 36, 33, .20);
     font-size: 16px;
     padding-left: 20px;
     padding-right: 90px;
+    background-image: url(images/search.svg);
+    background-position: 645px 10px;
+    background-repeat: no-repeat;
+    background-size: 23px;
+}
+
+.search-bar:hover {
+    box-shadow: 0 3px 10px rgba(32, 36, 33, .20);
 }
 
 .settings {
@@ -64,15 +72,64 @@
 }
 
 .subnavbar {
-    background-color: lightgreen;
     list-style-type: none;
+    margin-top: -15px;
+    margin-bottom: 10px;
     display: flex;
-    margin-left: 200px;
-    margin-right: 1100px;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #ebebeb;
+}
+
+header a {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.subnavbar-icons {
+    position: relative;
+    width: 18px;
+    margin-right: 3px;
+    top: 5px;
+}
+
+.all {
+    margin-left: 180px;
+}
+
+.news {
+    margin-left: 25px;
+}
+
+.videos {
+    margin-left: 25px;
+}
+
+.maps {
+    margin-left: 25px;
+}
+
+.shopping {
+    margin-left: 25px;
+}
+
+.more {
+    margin-left: 25px;
+}
+
+.tools {
+    position: relative;
+    margin-left: 150px;
+    top: 2px;
 }
 
 .main {
-    margin-left: 200px;
+    margin-left: 180px;
     margin-right: 1100px;
 }
 
