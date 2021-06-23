@@ -6,11 +6,74 @@
 
 .navbar {
     display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
     list-style-type: none;
+    height: 100px;
 }
 
-.logo {
-    width: 80px;
+.google-logo {
+    width: 90px;
+    margin-left: 25px;
+}
+
+.search-bar {
+    width: 575px;
+    height: 45px;
+    margin-left: 45px;
+    border: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: #dadce8;
+    box-shadow: 0 2px 6px rgba(32, 36, 33, .20);
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 90px;
+}
+
+.settings {
+    margin-left: 900px;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.settings:hover {
+    background-color: whitesmoke;
+}
+
+.apps {
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.apps:hover {
+    background-color: whitesmoke;
+}
+
+.profile {
+    width: 32px;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.profile:hover {
+    background-color: whitesmoke;
+}
+
+.subnavbar {
+    background-color: lightgreen;
+    list-style-type: none;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 1100px;
+}
+
+.main {
+    margin-left: 200px;
+    margin-right: 1100px;
 }
 
 .wordpress-logo {
