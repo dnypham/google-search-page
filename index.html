@@ -6,12 +6,12 @@
     </head>
 
 <body>
-
     <header>
         <nav>
             <ul class="navbar">
-                <li><a href="#"><img class="logo" src="images/Google.png"></a></li>
-                <li><input type="text"><a href="#"><img class="settings" src="images/settings.svg"></a></li>
+                <li><a href="#"><img class="google-logo" src="images/Google.png"></a></li>
+                <li><input class="search-bar" type="text"></li>
+                <li><a href="#"><img class="settings" src="images/settings.svg"></a></li>
                 <li><a href="#"><img class="apps" src="images/apps.svg"></a></li>
                 <li><a href="#"><img class="profile" src="https://lh3.googleusercontent.com/ogw/ADea4I7YLt-dcwb0cx1gD7szDmAxj1d3IFcosJBM7fl1=s64-c-mo"></a></li>
             </ul>
@@ -19,13 +19,13 @@
 
         <nav>
             <ul class="subnavbar">
-                <li><a href="#"><img id="search-icon" src="images/search.svg">All</a></li>
-                <li><a href="#"><img id="news-icon" src="images/article.svg">News</a></li>
-                <li><a href="#"><img id="videos-icon" src="images/play-button.svg">Videos</a></li>
-                <li><a href="#"><img id="maps-icon" src="images/location.svg">Maps</a></li>
-                <li><a href="#"><img id="shopping-icon" src="images/tag.svg">Shopping</a></li>
-                <li><a href="#"><img id="more-icon" src="images/more-vertical.svg">More</a></li>
-                <li><a href="#">Tools</a></li>
+                <li><a class="all" href="#"><img class="subnavbar-icons" src="images/search.svg">All</a></li>
+                <li><a class="news" href="#"><img class="subnavbar-icons" src="images/article.svg">News</a></li>
+                <li><a class="videos" href="#"><img class="subnavbar-icons" src="images/play-button.svg">Videos</a></li>
+                <li><a class="maps" href="#"><img class="subnavbar-icons" src="images/location.svg">Maps</a></li>
+                <li><a class="shopping" href="#"><img class="subnavbar-icons" src="images/tag.svg">Shopping</a></li>
+                <li><a class="more" href="#"><img class="subnavbar-icons" src="images/more-vertical.svg">More</a></li>
+                <li><a class="tools" href="#">Tools</a></li>
             </ul>
         </nav>
     </header>
@@ -87,19 +87,14 @@
 
         <section>
             <article>
-                <h1>Related searches<img class="more-icon-sup" src="images/more-vertical.svg"></h1>
-                <h2>Website making software</h2>
+                <h1 class="related-searches">Related searches<img class="more-icon-sup" src="images/more-vertical.svg"></h1>
+                <h2 class="website-making-software">Website making software</h2>
             </article>
 
-            <article>
+            <article class="related-searches-links">
                 <figure>
                     <img class="wordpress-logo" src="https://image.flaticon.com/icons/png/512/174/174881.png">
                     <figcaption><a href="#">WordPress</a></figcaption>
-                </figure>
-
-                <figure>
-                    <img class="webflow-logo" src="https://uploads-ssl.webflow.com/5bc3149ee46b0e0590608711/5d1b56d7a694d6c787e1aea7_webflow%20logo.png">
-                    <figcaption><a href="#">Webflow</a></figcaption>
                 </figure>
 
                 <figure>
@@ -123,18 +118,18 @@
                 </figure>
             </article>
 
-            <button class="see-more-button"><a href="#">See More</a></button>
+            <div class="see-more-button-margin"><button class="see-more-button">See more</button></div>
         </section>
         
-        <section>
-            <button class="related-searches-buttons"><a href="#">best website builder</a></button>
-            <button class="related-searches-buttons"><a href="#">how to make a website for free one google</a></button>
-            <button class="related-searches-buttons"><a href="#">how to create a website free of cost</a></button>
-            <button class="related-searches-buttons"><a href="#">how to build a website from scratch</a></button>
-            <button class="related-searches-buttons"><a href="#">website builder software</a></button>
-            <button class="related-searches-buttons"><a href="#">google website</a></button>
-            <button class="related-searches-buttons"><a href="#">website builder free</a></button>
-            <button class="related-searches-buttons"><a href="#">creating a website for your business</a></button>
+        <section class="buttons">
+            <button class="related-searches-buttons">best website builder</button>
+            <button class="related-searches-buttons">how to make a website for free one google</button>
+            <button class="related-searches-buttons">how to create a website free of cost</button>
+            <button class="related-searches-buttons">>how to build a website from scratch</button>
+            <button class="related-searches-buttons">website builder software</button>
+            <button class="related-searches-buttons">google website</button>
+            <button class="related-searches-buttons">website builder free</button>
+            <button class="related-searches-buttons">creating a website for your business</button>
         </section>
     </main>
 
@@ -150,6 +145,5 @@
             </ul>
         </nav>
     </footer>
-
 </body>
 </html>

@@ -130,29 +130,127 @@ header a {
 
 .main {
     margin-left: 180px;
-    margin-right: 1100px;
+    margin-right: 1130px;
+}
+
+.search-results {
+    color: #5f6368;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+article sup {
+    font-size: 14px;
+}
+
+main article {
+    margin-bottom: 22px;
+}
+
+.more-icon-sup {
+    position: relative;
+    margin-left: 20px;
+    width: 18px;
+    top: 3px;
+}
+
+article h1 a {
+    color: rgb(26, 13, 171);
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 155%;
+    color: #4d5156;
+}
+
+.related-searches {
+    font-weight: normal;
+    font-size: 22px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(32, 36, 33, .20)
+}
+
+.website-making-software {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.related-searches-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    text-align: center;
+}
+
+figcaption a {
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+    word-wrap: break-word;
+    margin-left: 10px;
 }
 
 .wordpress-logo {
-    width: 100px;
-}
-
-.webflow-logo {
+    background-color: whitesmoke;
     width: 100px;
 }
 
 .google-web-designer-logo {
-    width: 110px;
+    background-color: whitesmoke;
+    width: 100px;
+    margin-left: 10px;
 }
 
 .adobe-dreamweaver-logo {
-    width: 120px;
+    background-color: whitesmoke;
+    width: 100px;
 }
 
 .visual-studio-code-logo {
+    background-color: whitesmoke;
     width: 100px;
 }
 
 .adobe-xd-logo {
+    background-color: whitesmoke;
     width: 100px;
+    margin-left: 10px;
+
+}
+
+.see-more-button {
+    width: 300px;
+    height: 35px;
+    margin-left: 150px;
+    border: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: #dadce8;
+    background-color: white;
+    font-size: 14px;
+    color: rgb(26, 13, 171)
+}
+
+.see-more-button:hover {
+    background-color: whitesmoke;
+}
+
+.see-more-button-margin {
+    height: 70px;
+    margin-bottom: 20px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(32, 36, 33, .20)
 }
