@@ -45,7 +45,7 @@
     padding: 8px;
     border-radius: 50%;
     margin-right: 10px;
-    margin-left: 410px;
+    margin-left: 650px;
 }
 
 .settings:hover {
@@ -84,7 +84,6 @@
     border-bottom: solid;
     border-bottom-width: 1px;
     border-bottom-color: #ebebeb;
-    width: 100%;
 }
 
 header a {
