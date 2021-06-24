@@ -41,10 +41,10 @@
 }
 
 .settings {
-    margin-left: 900px;
     padding: 8px;
     border-radius: 50%;
     margin-right: 10px;
+    margin-left: 410px;
 }
 
 .settings:hover {
@@ -130,7 +130,7 @@ header a {
 
 .main {
     margin-left: 180px;
-    margin-right: 1130px;
+    width: 590px;
 }
 
 .search-results {
@@ -245,6 +245,7 @@ figcaption a {
 
 .see-more-button:hover {
     background-color: whitesmoke;
+    cursor: pointer;
 }
 
 .see-more-button-margin {
@@ -254,3 +255,43 @@ figcaption a {
     border-bottom-width: 1px;
     border-bottom-color: rgba(32, 36, 33, .20)
 }
+
+.buttons-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    width: 590px;
+    height: 250px;
+    margin-top: 25px;
+}
+
+.related-searches-buttons {
+    width: 270px;
+    height: 50px;
+    margin: 6px;
+    border: transparent;
+    border-width: 1px;
+    border-radius: 50px;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 15px;
+    text-align: start;
+    background-image: url(images/search.svg);
+    background-repeat: no-repeat;
+    background-position: 18px 15px;
+    background-size: 20px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.related-searches-buttons:hover {
+    text-decoration: underline;
+}
+
+.button-text {
+    text-decoration: none;
+    color: #222;
+}
+
